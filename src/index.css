@@ -57,3 +57,21 @@ li:hover {
     height: fit-content;
    
   }
+
+.button-container{
+  padding: 4%;
+  
+}
+
+.buttons-counters{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    color:black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 15%;
+}
+
+.buttons-counters:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
